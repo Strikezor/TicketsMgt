@@ -1,29 +1,51 @@
-# <a href="https://www.udemy.com/course/nextjs14-ticketapp/?couponCode=DD85199B00481F602C1F" target="_blank">Updated Version Ticket Application using Typscript</a>
-Want to take this project to the next level join our <a href="https://www.udemy.com/course/nextjs14-ticketapp/?couponCode=DD85199B00481F602C1F" target="_blank">
-Udemy Course</a>. Support the channel for only $13
-- New Features
-  - Prisma
-  - Typscript
-  - Server Side Pagination
-- Future Updates
-  - Server Actions
-  - Deployment
-  - Any new Next.js 14 features
+##Project Name: Ticket Management App
 
-<a href="https://www.youtube.com/claritycoders" target="_blank">Clarity Coders YouTube</a>
-# NextJS 13.4 Example App!
-- Simple CRUD app to showcase how to use 13.4 app router
-- Tech Stack
-  - Tailwind CSS
-  - fontawesome
-  - MongoDB
-  - Mongoose 
+#Description:
 
-# Want to add authentication? Check out our free Udemy Course! Next Auth Tutorial Video
-- Free Using link below.
-- Covers rolling your own auth system and using providers like github and google.
-- An FREE! Updated version can be found on Udemy by clicking the link <a href="https://www.udemy.com/course/nextauth-nextjs-cc/?couponCode=C9622654181134A4AE79" target="_blank">Free Udemy Course</a>
+This application empowers users with a comprehensive and streamlined platform for managing tickets. It leverages the robust capabilities of Next.js for a seamless frontend experience and MongoDB for scalable data storage.
 
-## Contact!
-- YouTube <a href="https://www.youtube.com/claritycoders" target="_blank">Clarity Coders</a>
-- Chat with me! <a href="https://discord.gg/cAWW5qq" target="_blank">Discord</a>
+#Features:
+
+Ticket Creation: Users can effortlessly create new tickets, providing crucial details such as title, description, priority, and assignee.
+Ticket Listing: A well-organized list of all tickets is presented, allowing users to easily view their status (open, closed, in progress), priority, and assigned user.
+Ticket Details: Each ticket displays comprehensive information, including title, description, priority, creation date, and any updates.
+Ticket Updates: Users can add updates to tickets, fostering a collaborative environment for resolving issues effectively.
+
+##Getting Started:
+
+#Prerequisites:
+
+Node.js and npm (or yarn) installed on your system.
+A MongoDB database instance running locally or on a cloud provider.
+Clone the Repository:
+
+Bash
+git clone https://github.com/Strikezor/TicketsMgt.git
+Use code with caution.
+Install Dependencies:
+
+Bash
+cd ticket-management-app
+npm install (or yarn install)
+Use code with caution.
+Configure MongoDB Connection:
+Create a .env.local file in the project root directory and add the following environment variable, replacing <your_mongodb_uri> with your actual MongoDB connection URI:
+
+MONGODB_URI=<your_mongodb_uri>
+Start the Development Server:
+
+Bash
+npm run dev (or yarn dev)
+Use code with caution.
+This will launch the Next.js development server, typically accessible at http://localhost:3000.
+
+Deployment:
+
+Build for Production:
+
+Bash
+npm run build (or yarn build)
+Use code with caution.
+This creates an optimized production-ready build of the application in the .next directory.
+
+
